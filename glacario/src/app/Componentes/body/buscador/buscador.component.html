@@ -1,0 +1,36 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+      <h1>Your results for {{ termino }} </h1> 
+      <hr width="100%" align="right">
+
+        <div class="row animated fadeIn fast" *ngIf="buscarterm.length == 0">
+          <div class="col-md-8" style="position: static; align-content: center;">
+            <div class = "alert alert-info" role="alert">
+                Sorry we couldn't find any term with: {{ termino }}  :(
+            </div>
+          </div>
+        </div>
+
+        <div class="container texto" *ngFor="let busqterm of buscarterm">
+            <h2 class="card-title">{{ busqterm.termino }}</h2>
+              <p>{{busqterm.descripcion}}</p>
+              <hr width="75%" align="left">
+        </div>
+    </div>
+</div>
+
+
+
+<!--<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <h1>Esto se encontró para {{ termino }} </h1>
+    <div class="row">        
+            <div class="card text-white bg-dark mb-3" style="max-width: 20rem;" *ngFor="let busqterm1 of buscarterm">
+                <div class="card-header">{{ busqterm1.termino }}</div>
+                <div class="card-body">
+                  <h5 class="card-title">{{ busqterm1.termino }}</h5>
+                  <p class="card-text">{{busqterm1.descripcion}}</p>
+                </div>
+              </div>
+            </div>
+    </div>
+   -->

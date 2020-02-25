@@ -1,0 +1,148 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+        <h1>ERP Terms</h1>
+        <hr width="100%" align="left">
+            <div class="container texto" *ngFor="let erpgloss of erpglos">
+                <h2 class="card-title">{{ erpgloss.termino}}</h2>
+                <p>{{erpgloss.descripcion}}</p>
+                <hr width="75%" align="left">
+            </div>  
+    </div>
+</div>
+
+<!--
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+<div class="container texto">
+        <h1>ERP TERMS</h1>
+            <h2><li>ERP</li> </h2>
+                <p>Modular software system designed to integrate the main functional areas of an organization's business processes into a unified system.</p>
+            
+            <h2><li>Oracle US Tech Company</li> </h2>
+                <p>Oracle is one of the largest vendors in the enterprise IT market and the shorthand name of its flagship product, a relational database management system (RDBMS) that's formally called Oracle Database. The database software sits at the center of many corporate IT environments, supporting a mix of transaction processing, business intelligence and analytics applications.</p>
+            
+            <h2><li>Customers</li> </h2>
+                <p>The customer of an  IT service provider is the person or group who defines and agrees  the service level targets.</p>
+            
+            <h2><li>Suppliers</li> </h2>
+                <p>Person or organization that provides something needed such as a product or service.</p>
+
+            <h2><li>TCO Total Cost Ownership</li> </h2>
+                <p>It is a calculation that reveals the cost of owning a product or service for a given period</p>
+    
+            <h2><li>SAC  Service Acceptance Criteria</li> </h2>
+                <p>A set of criteria used to ensure that an IT service meets its functionality and quality requirements and that the IT service provider is ready to operate the new IT service when it has been deployed.</p>
+
+            <h2><li>SKMS Service Knowledge Management System</li> </h2>
+                <p>Is the central repository of the data, information, and knowledge that the IT organization requires, to manage the lifecycle of its services.</p>
+
+            <h2><li>CMS Configuration Management System</li> </h2>
+                <p>Is a system engineering process for establishing and maintaining consistency of a product's performance, functional, and physical attributes with its requirements, design, and operational information throughout its life.</p>
+
+            <h2><li>CMIS Capacity management information system</li> </h2>
+                <p>Is a collection of IT infrastructure usage, capacity and performance information that has been gathered in a consistent manner and stored in one or more databases</p>
+
+            <h2><li>SCMIS Supplier and contract management information system</li> </h2>
+                <p>People in charge to ensure that all contracts with suppliers support the needs of the business</p>
+
+            <h2><li>AMIS Availability management information system</li> </h2>
+                <p>It is responsible for ensuring that all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets.</p>
+
+            <h2><li>SMIS Security management information system</li> </h2>
+                <p>It is a set of policies and procedures for systematically managing an organization's sensitive data.</p>
+
+            <h2><li>RACI Responsible, Accountable, Consulted, Informed</li> </h2>
+                <p>Responsibility Assignment Matrix</p>
+
+            <h2><li>SCM Service Catalog Management</li> </h2>
+                <p>Service Catalogue Management provides a single source of consistent infomation on all agreed services, and ensures that is widely available to those who are authorized to access it.</p>
+
+            <h2><li>SLM Service Level Management</li> </h2>
+                <p>Deals with negotiating, agreeing and documenting existing services with some level of policies. It has two levels of agreement, the SLA and the OLA.</p>
+
+            <h2><li>OLA Operational Level Agreement</li> </h2>
+                <p>Unlike SLA it is agreement within the organization.</p>
+
+            <h2><li>UC Underpinning Contract</li> </h2>
+                <p>Contract with an external provider that helps service provision.</p>
+
+            <h2><li>ITSCM Information Technology Continuity Management</li></h2>
+                <p>The purpose of the IT service continuity management (ITSCM)  process is to support the overall Business Continuity Management  (BCM) process by ensuring that the required IT technical and service  facilities can provide, can be resumed within required and  agreed business time scales.</p>
+
+            <h2><li>BPO Business Process Outsourcing</li> </h2>
+                <p>BPO is the contracting of non-primary business activities and functions to a third-party provider. BPO services include payroll, human resources (HR), accounting and customer/call center relations. BPO is also known as information technology enabled services (ITES).</p>
+
+            <h2><li>SPM  Service Portfolio Management</li> </h2>
+                <p>The portfolio management service is to provide strategic  direction and management of IT investments to continuously maintain optimal  portfolio of services.</p>
+
+            <h2><li>Java</li> </h2>
+                <p>Java is a high-level programming language developed by Sun Microsystems.</p>
+            
+            <h2><li>JMX Java Management Extension</li> </h2>
+                <p>JXM is a Java technology that supplies tools for managing and monitoring applications, system objects, devices (such as printers) and service-oriented networks.</p>
+
+            <h2><li>JAXWS Java API for XML Web Services</li> </h2>
+                <p>Is standard application program interface that is used to develop Web services and is a part of the Sun Java development kit (JDK)</p>
+
+            <h2><li>PDA Personal Digital Assistant</li> </h2>
+                <p>Is a term for a small, mobile, handheld device that provides computing and information storage and retrieval capabilities for personal or business use, often for keeping schedules, calendars and address book information handy.</p>
+
+            <h2><li>SSB'S Single Strand Braks</li> </h2>
+                <p>Integrates data from different sources, transforms and consolidates the data, does data cleansing, and storing of data as well. ... A SAP Business Intelligence system can work as a target system for data transfer or source system for distribution of data.</p>
+
+            <h2><li>DSBS Double-Strand breaks </li> </h2>
+                <p>A tool that allows the integrated management system: made, control budgets, planning and financial consolidation and the creation of reports.</p>
+
+            <h2><li>BW Business Warehouse</li> </h2>
+                <p>Reporting and analysis simple for business users so they can create reports and perform processes like predictive analytics without needing the input of data analysts.</p>
+
+            <h2><li>BPC Business Planning and Consolidation</li> </h2>
+                <p>Technologies, applications and practices for the collection, integration, analysis, and presentation of business information. </p>
+
+            <h2><li>Business Savvy Business Skill</li> </h2>
+                <p>Work-ready, Nimble/Agile, Flexible</p>
+
+            <h2><li>BPA Business Process Automation</li> </h2>
+                <p>Automatization that combines consumer-like usability with enterprise-class reliability and security that empowers your workforce to automate on their own in real time.</p>
+            
+            <h2><li>Roadmap IT Terminology</li> </h2>
+                <p>Where all the components of business vision, current-state and future-state efforts come together to form an actionable and meaningful plan to achieve effective outcomes. </p>
+
+            <h2><li>BPMN Business Process Model and Notation</li> </h2>
+                <p>It is a graphical notation for representing business process through business process diagrams. </p>
+
+            <h2><li>BPD Business Process Diagram</li> </h2>
+                <p>It is a diagram that depicts a directed flow of activities that are specified by using a subset of Business Process Modeling Notation.</p>
+
+            <h2><li>BPD Business Process Diagram</li> </h2>
+                <p>It is a diagram that depicts a directed flow of activities that are specified by using a subset of Business Process Modeling Notation.</p>
+
+            <h2><li>Iaas Infraestructure As A Service</li> </h2>
+                <p>Computer resources service located in a virtualized environment. Processing infrastructure that is accessed as a service through the internet. Servers, networks, storage, virtualization and operating system</p>
+
+            <h2><li>PaaS Platform as a Service</li> </h2>
+                <p>Model and set of tools, offered as subscription services, which allows to implement, manage and integrate applications without the need for their own infrastructure (SW / HW) or tool licenses</p>
+
+            <h2><li>SaaS Software as Software</li> </h2>
+                <p>It is a software distribution model where the software and the data it manages are hosted on servers of an information and communication technology company.</p>
+
+            <h2><li>UDC User defined code</li> </h2>
+                <p>It is one value in a set of values that is assigned as valid for a field.  You can use UDCs to categorize your data and make sure that users provide consistent input on forms.</p>
+
+            <h2><li>ASN Advance Shipping Notice</li> </h2>
+                <p>It is a document that provides detailed information about a pending delivery.</p>
+
+            <h2><li>APS Advance Planning System</li> </h2>
+                <p>It is a type of system that tracks costs based on the activities that are responsible for driving costs in the production of manufactured goods.</p>
+
+            <h2><li>SD Direct Ship</li></h2>
+                <p>It is a method of delivering goods from the supplier or the product owner to the customer directly. </p>
+
+            <h2><li>OD Direct Ship Order</li> </h2>
+                <p>Is a type of sales order where you can purchase a specific item based on the customer's requirement and ship the item directly from the supplier to the customer without affecting inventory operations.</p>
+    </div>
+</div>
+-->
+    
+    
+
+

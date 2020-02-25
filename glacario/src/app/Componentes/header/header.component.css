@@ -1,0 +1,51 @@
+
+/************Esta parte es solo el encabezado que incluye el título de gA academy y glossary*********/
+.jumbotron{
+    padding-top: 10px;
+    padding-bottom: 10px;    
+    position: -webkit-sticky;
+    position: sticky; top: 0px;
+    z-index: 2;
+    background-color:#ffee00;
+}
+
+.encabezado{
+    background-color: #ffee00; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.titulo{
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;    
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+}
+.division{
+    width: 40%;
+    align-self: center;
+    height: 2px;
+    background-color: darkslategray;
+    color: darkslategray;
+    margin-top: -20px;
+/*    width = "50%" align = "center" noshade="20" size="15px"*/
+}
+.subtitulo{
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+/************Esta parte es la que incluye la barra de navegación**********/
+.barranav{
+    background-color: darkslategray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.navbar{
+    background-color: darkslategray;
+}

@@ -1,0 +1,18 @@
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0px;
+    margin-top: -32px;
+    margin-bottom: 0px;
+    background-color: #ffee00;
+}
+
+
+.fondo_footer{ 
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    height: 100px;
+    padding-top: 10px;
+}

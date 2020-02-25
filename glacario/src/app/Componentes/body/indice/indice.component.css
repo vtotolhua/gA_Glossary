@@ -1,0 +1,29 @@
+.titulo_indice{
+    padding-top: 20px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+.nav-pills>li>a:hover {
+    background-color: darkslategray;
+    opacity: 50%;
+/*    background-color: rgb(236, 224, 55);*/
+}
+
+.nav-pills> li > a.active, .nav-pills> li > a.active:hover {
+    background-color:  rgb(105, 54, 54);
+    color:whitesmoke
+}
+
+.nav-pills> li > a.active:hover {
+    background-color: darkslategray;
+}
+

@@ -1,0 +1,11 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+        <h1>Personal Marketing Terms</h1>
+        <hr width="100%" align="left">
+            <div class="container texto" *ngFor="let mktgte_ of mktServte">
+                <h2 class="card-title">{{ mktgte_.termino }}</h2>
+                <p>{{mktgte_.descripcion}}</p>
+                <hr width="75%" align="left">
+            </div>
+    </div>
+</div>

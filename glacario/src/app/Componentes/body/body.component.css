@@ -1,0 +1,24 @@
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: -33px;
+    background-color: #ffee00;
+}
+
+.fondo_indice{
+    align-self: flex-start;
+    background-color: #ffee00;
+    position: -webkit-sticky;
+    position: sticky; top: 0px;
+    z-index: 3;
+}
+
+.fondo_desc{
+    background-color: darkslategray;
+    align-self: initial;
+    padding-top: 10px;;
+/*  position: relative;
+
+    align-content: center;
+    vertical-align: middle;*/
+}

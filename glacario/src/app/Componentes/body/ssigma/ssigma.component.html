@@ -1,0 +1,11 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+        <h1>Six Sigma Terms</h1>
+        <hr width="100%" align="left">
+            <div class="container texto" *ngFor="let ssigmt of ssigmaServ">
+                <h2 class="card-title">{{ ssigmt.termino }}</h2>
+                <p>{{ssigmt.descripcion}}</p>
+                <hr width="75%" align="left">              
+            </div>
+    </div>
+</div>

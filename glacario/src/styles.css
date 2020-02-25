@@ -1,0 +1,50 @@
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  h1{
+    margin-bottom: 30px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    }
+    
+    h2{
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    }
+    
+    .texto{
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+    }
+
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }

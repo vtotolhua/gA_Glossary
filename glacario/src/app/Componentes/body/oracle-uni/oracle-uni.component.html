@@ -1,0 +1,11 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+        <h1>Oracle University Terms</h1>
+        <hr width="100%" align="left">
+            <div class="container texto" *ngFor="let oracte of oracUnivServ">
+                <h2 class="card-title">{{ oracte.termino }}</h2>
+                <p>{{oracte.descripcion}}</p>
+                <hr width="75%" align="left">                
+            </div>
+    </div>
+</div>

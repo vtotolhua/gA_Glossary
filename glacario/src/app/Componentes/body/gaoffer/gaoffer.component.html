@@ -1,0 +1,11 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+        <h1>GA Offering</h1>
+        <hr width="100%" align="left">
+            <div class="container texto" *ngFor="let gaoffterm of gaOfferServ">
+                <h2 class="card-title">{{ gaoffterm.termino }}</h2>
+                <p>{{ gaoffterm.descripcion }}</p>
+                <hr width="75%" align="left">
+            </div>  
+    </div>
+</div>

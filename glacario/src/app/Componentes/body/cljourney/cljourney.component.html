@@ -1,0 +1,11 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+        <h1>Cloud Journey Terms</h1>
+        <hr width="100%" align="left">
+            <div class="container texto" *ngFor="let cljour_ of cljourney">
+                <h2 class="card-title">{{ cljour_.termino }}</h2>
+                <p>{{cljour_.descripcion}}</p>
+                <hr width="75%" align="left">
+            </div>
+    </div>
+</div>

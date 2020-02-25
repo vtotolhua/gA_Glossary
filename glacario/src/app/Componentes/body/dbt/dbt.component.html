@@ -1,0 +1,11 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+    <h1>Digital Business Transformation</h1>
+    <hr width="100%" align="left">
+        <div class="container texto" *ngFor="let dbtte of dbtserv">
+            <h2 class="card-title">{{ dbtte.termino }}</h2>
+            <p>{{dbtte.descripcion}}</p>
+            <hr width="75%" align="left">
+        </div>
+    </div>
+</div>

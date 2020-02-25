@@ -1,0 +1,11 @@
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+        <h1>C N C </h1>
+        <hr width="100%" align="left">
+                <div class="container texto" *ngFor="let cncter of cncServTerm">
+                    <h2 class="card-title">{{ cncter.termino }}</h2>
+                    <p>{{cncter.descripcion}}</p>
+                    <hr width="75%" align="left">
+                </div>
+    </div>
+</div>
