@@ -6,115 +6,92 @@ export class gaOfferService {
 
     private gaofferservte:gaofferterm_ [] = 
 
-    [
-	
+    [ 	
         {
             termino:"Navigate",
-            descripcion: "plataform for customers solve specific business problems."
-        },
+                    descripcion: "Plataform based in Artificial Intelligence and Data Science to solve specific business problems."
+            },
         {
             termino:"OCP: Omnichannel Customer Platform",
-            descripcion: "gather information about the behavior of customers of a physical store."
-        },
+                    descripcion: "Platorm in charge of gather information about the behavior of customers of a physical store."
+            },     
         {
-            termino:"Blue bags",
-            descripcion: "Portal processes configured and defined."
-        },
+            termino:"PII: Process innovation incubador",
+                    descripcion: "Develop by providing services such as management training or office space for help companies startup."
+            },   
         {
-            termino:"PII",
-            descripcion: "Process innovation incubador."
-        },
+            termino:"RPA: Robotic Process Automation",
+                    descripcion: "Automation of tasks based in software robots or artificial intelligence."
+            },   
         {
-            termino:"RPA",
-            descripcion: "Robotic Process Automation."
+            termino:"TTB: Transform The Business",
+                    descripcion: "Process where you manage, organize and implement new strategies or developments in a company."
         },
+       
         {
-            termino:"TTB",
-            descripcion: "Transform The Business."
-        },
-        {
-            termino:"KPI",
-            descripcion: "Key Performance Indicator."
-        }, 
+            termino:"KPI: Key Performance Indicator",
+                    descripcion: "Indicators that helps to qualify specific areas in a business."
+        },   
         {
             termino:"Kyduk",
-                    descripcion: "Kyduk is our Innovation Platform approach. We work closely with large companies to build innovation platforms with a framework to catalyze and execute transformation."
-            },
-            
+                    descripcion: "Innovation Platform of gA. Building innovation in companies with a framework that helps catalyze and transformate the enterprise."
+        },   
         {
             termino:"Product",
-                    descripcion: "In information technology, a product is something (for example, a software application) that is created and then made available to customers, usually with a distinct name or order number."
-            },   
-    
+                    descripcion: "In information technology, a product is created and be available to customers as example: a software application or a new development."
+        },   
         {
-            termino:"Framework",
-                    descripcion: "Use the Search and Browse Catalog to search for learning events. Only those events you have access to are displayed in the search results."
-            },
-    
+            termino:"Digital Product",
+                    descripcion: "Digital information that can be purchased"
+        },   
         {
-            termino:"Digital products",
-                    descripcion: "A data product is digital information that can be purchased. "
-            },
-    
+            termino:"Digital Disruption",
+                    descripcion: "Change that occurs when new digital technologies and business models affect the value proposition of existing goods and services."
+        },   
         {
-            termino:"Digital Disruption ",
-                    descripcion: "Digital disruption is the change that occurs when new digital technologies and business models affect the value proposition of existing goods and services."
-            },
-    
-        {
-            termino:"Busssiness Unit",
-                    descripcion: "A logical element or segment of a company (such as accounting, production, marketing) representing a specific business function."
-            },
-    
+            termino:"BU: Business Unit",
+                    descripcion: "Logical element or segment of a company whose represent a specific business function."
+        },   
         {
             termino:"Incubation",
-                    descripcion: "In the business world, an incubator is an enterprise that is set up to provide office space, equipment, and sometimes mentoring assistance and capital to new businesses that are just getting started."
-            },
-    
+                    descripcion: "Enterprise that set up to provide office space, equipment, mentoring, assistance and capital to new businesses that are just getting started."
+        },   
         {
-            termino:"Asset Creation ",
-                    descripcion: "The IT asset lifecycle is the stages that an organization’s information technology asset goes through during the time span of its ownership. An IT asset is any company-owned information, software or hardware."
-           },
-    
+            termino:"Asset Creation",
+                    descripcion: "IT asset is any company - owned information, software or hardware."
+        },   
         {
             termino:"Change Management",
-                    descripcion: "Change management is a systematic approach to dealing with the transition or transformation of an organization's goals, processes or technologies."
-            },
-    
-    
+                    descripcion: "Systematic approach to dealing with the transition or transformaation of an organization goals, process or technologies."
+        },   
         {
-            termino:"Speculative Execution ",
-                    descripcion: "Speculative execution is an optimization technique in which a processor (CPU) performs a series of tasks before it is prompted to, in order to have the information ready if it is required at any point."
-            },
+            termino:"Speculative Execution",
+                    descripcion: "Optimization technique in which a processor (CPU) performs a series of tasks before it is prompted to, in order to have the information ready if it's requires at any point."
+        },   
         {
             termino:"Smart Process Application",
-                    descripcion: "A smart process application is software that is designed to support an organization's business process management (BPM) efforts in a collaborative manner."
-            },
-            
+                    descripcion: "Software that is designed to support an organization's business process management (BPM) efforts in a collaborative manner."
+        },   
         {
             termino:"Parallel Processing",
-                    descripcion: "In computers, parallel processing is the processing of program instructions by dividing them among multiple processors with the objective of running a program in less time."
-            },   
-    
+                    descripcion: "Processing of program instructions by dividing them amoung multiple processors with the objective of running a program in less time."
+        },   
         {
             termino:"Business Process Governance",
-                    descripcion: "Also called process governance or business process management  governance, is the use of rules to manage BPM programs and initiatives."
-            },
-    
+                    descripcion: "USse of rules to manage BPM programs and initiatives."
+        },   
         {
             termino:"Business Process Mapping",
-                    descripcion: "Business process mapping is the visual display of the steps involved in a business process from start to finish. Process mapping draws a concise picture of the sequences of tasks needed to bring a product or service from genesis to completion. It is often depicted as a flowchart and usually moves from left to right, or sometimes top down."
-            },
-    
+                    descripcion: "Display of steps involved in a business process from start to finish. Draws the sequence of tasks needed to bring a product or service from genesis to completion. It's usually depicted as a flowchart."
+        },   
         {
             termino:"Lean Startup",
-                    descripcion: "Lean startup is an approach to building new businesses based on the belief that entrepreneurs must investigate, experiment, test and iterate as they develop products."
-            },
-    
+                    descripcion: "Approach to building new business based on the belief that entrepreneurs must investigate, experiment, test and iterate as they develop products."
+        },   
         {
             termino:"Lean Software Development",
-                    descripcion: "Lean software development is a concept that emphasizes optimizing efficiency and minimizing waste in the development of software."
-            }
+                    descripcion: "Concept that emphasizes optimizing efficiency and minimizing waste in development of the software."
+        }
     ];
     
     constructor (){

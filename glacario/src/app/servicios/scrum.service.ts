@@ -7,50 +7,53 @@ export class scrumService {
     private scriumte: scrumte_ [] = 
     [
         {
-            termino:"Acceptance Criteria", 
-            descripcion:"The product characteristics, specified by the Product Owner, that need to be satisfied before they are accepted by the user, customer, or other authorized entity. These are used as standards to measure and compare the characteristics of the final product with specified characteristics."
-        },
-        {
-            termino:"Acceptance Test", 
-            descripcion:"These tests are run from a business and customer point of view. These tests check the requested and implemented feature and determine whether these features match the business and the customer requirements."
-        },
-        {
-            termino:"Acceptance-Test-Driven Development (ATTD)", 
-            descripcion:"A system or product development method in which the acceptance criteria are discussed extensively by the participants, through the use of examples and well-designed acceptance tests on the basis of the these criteria before development begins."
-        },
-        {
-            termino:"Accuracy", 
-                    descripcion:"The degree by which the measured value is very close to the true value (PMI)."
+            termino:"Acceptance criteria",
+                    descripcion: "Are the characteristics of the product that where specified by the Product Owner 'PO' when we start a new development that were accepted by the user, customer, or other authorized entity which used standards to measure and compare the characteristics of the final product with specified characteristics."
             },
+            
+        {
+            termino:"Acceptance Test",
+                    descripcion: "Test that check the requested and implemented features, which determines if these features match with the business and the customer requirements."
+            },        
     
         {
-            termino:"Acquire Project Team", 
-                    descripcion:"It is the process of confirming and securing the team necessary to complete the a project. Skill, experience and availability of resources are important parameters considered while acquiring project team."
+            termino:"Acceptance Test Driven Development (ATTD)",
+                    descripcion: "System or product development method in which the acceptance criteria are discussed extensively by the participants, through the use of examples and well-designed acceptance tests on the basis of this creteria before development begins."
             },
+            
+        {
+            termino:"Accuracy",
+                    descripcion: "Degree which measured value is very close to the true value (PMI)."
+            },      
+          
+        {
+            termino:"Acquire Project Team",
+                    descripcion: "Process of confirming and securing the team necessary to complete the project. Skill, experiences and availability of resources which are important parameters considered while acquiring project team."
+            },      
     
         {
-            termino:"Adaptability", 
-                    descripcion:"Desirable characteristic in a person, team, process or system measured in the ability/capability to adapt or being adapted. In organizational context, it refers to the ability to change something or oneself to fit to occurring changes."
+            termino:"Adaptability",
+                    descripcion: "Characteristic in a person, team, process or system measured in the ability/capability to adapt or being adapted. In organization context, it refers to the ability of change something to face changes."
             },
-        
+            
         {
-            termino:"Adaptation", 
-                    descripcion:"Modification in the product being developed or in the process of product development. Variations in the actual value and true value trigger the need for control and modification of the product or process."
-            },
+            termino:"Adaptation",
+                    descripcion: "Modification of the product developed. Variations in the actual value and true value trigger the need for control and modification of the product or process."
+            },      
     
         {
-            termino:"Adaptive planning", 
-                    descripcion:"Agile methodologies reduce waste by cutting back on work that does not add value. Planning a project does not directly add business value. Therefore, planning at any stage of a Scrum project should be as efficient as possible. Planning ahead for the whole project is considered waste, because Agile projects are prone to a high rate of change. Therefore, planning is done Just in Time (JIT)."
+            termino:"Adaptative planning",
+                    descripcion: "Agile methodologies which reduce waste by removing process that don't add value. Planning is done Just in Time 'JIT'."
             },
+            
+        {
+            termino:"Adaptative Project Management",
+                    descripcion: "Structured and iterative process of management which focuses on less up-front planning, unlike waterfall methods. This creates a fairly adaptable environment for teams where they focus only in the immediate tasks at hand, complete them, and then move to the next tasks. If there are any changes in requirements, they will be incorporated into the next Sprint. This ensures you to be on track with the quick changing market and technology scenario, enabling you to deliver the greatest value in the shortest time to your customers."
+            },      
     
         {
-            termino:"Adaptive Project Management", 
-                    descripcion:"Adaptive Project Management is a structured, iterative process of management which focuses on less up-front planning, unlike Waterfall methods. This creates a fairly adaptable environment for teams where they focus on only the immediate tasks at hand, complete them, and then move to the next tasks. If there are any changes in requirements, then they are incorporated into the next Sprint. This ensures you to be on track with the quick changing market and technology scenario, enabling you to deliver the greatest value in the shortest time to your customers."
-            },
-    
-        {
-            termino:"Additional Risk Response Planning", 
-                    descripcion:"This is done to take care of risks that were not initially identified or when the impact of a risk on objectives is greater than expected. The existing risk response planning may not be enough to control the risk."
+            termino:"Additional Risk Response Planning",
+                    descripcion: "Take care of risks that where not initially identified or when impact on objectives is greater than expected. The existing risk response planning may not be enough to control the risk."
             },
     
         {
@@ -58,46 +61,45 @@ export class scrumService {
                     descripcion:"Agile is a group of iterative and incremental software development methods. It encourages flexibility and speed in responding to change. It requires collaboration between self-organized, cross-functional teams to generate requirements and solutions."
             },
     
-        {
-            termino:"Agile Unified Process", 
-                    descripcion:"Agile Unified Process (AUP) is a refinement of the 'IBM Rational Unified Process (RUP)' first described by Craig Larman in 2001. Agile concepts and techniques are used to select elements from RUP. Iterations are classified into two types: Development and Release."
-            },
-    
-        {
-            termino:"All-Before-Any", 
-                    descripcion:"A sequential development process in which the output from the previous step is used as input for the next step in the process using a batch size of 100%."
-            },
-    
-        {
-            termino:"Approach", 
-                    descripcion:"The method used, or steps taken in, setting about a task or problem by the Scrum team. The approach differs from team to team."
-            },
-    
-        {
-            termino:"Artifact", 
-                    descripcion:"Any concrete by-product formed during the development cycle. Example of artifacts includes the Product Backlog and the Sprint Backlog."
-            },
-    
-        {
-            termino:"Assumptions", 
-                    descripcion:"Factors which, for planning purposes, are considered to be true, real or certain."
-            },
-    
-        {
-            termino:"Assumptions Analysis", 
-                    descripcion:"A project management exercise that explores the validity of assumptions that were made at the beginning of the project to identify any potential project risk conceived and developed because of the inaccuracy of any assumption. It also identifies risks because of any instability, inconsistency, or incompleteness of assumptions."
-            },
-    
-        {
-            termino:"Basic Unified Process (BUP)", 
-                    descripcion:"BUP is a simpler variation of Rational Unified Process (RUP) developed in 2005. It was optimized for small projects by IBM."
-            },
-    
-        {
-            termino:"Behavior Driven Development", 
-                    descripcion:"Behavior driven development (or BDD) is a software development process which involves collaboration between non-technical or business participants and people with technical insight like developers, QA etc."
-            },
+            {
+                termino:"Agile Unified Process",
+                        descripcion: "Agile Unified Process (AUP)  is a refinement of the 'IBM Rational Unified Process (RUP)' described by Craig Larman in 2001. Agile concepts and techniques are used to select elements from RUP. Iterations are classified into two types: Development and Release."
+                },      
         
+            {
+                termino:"All Before Any",
+                        descripcion: "Sequential development process in which the output from previous step is used as input for the next step in the process using a batch size of 100%."
+            },      
+        
+            {
+                termino:"Approach",
+                        descripcion: "Method used or steps taken in, setting about a task or problem by the scrum team. The approach differs from team to team."
+            },        
+        
+            {
+                termino:"Artifact",
+                        descripcion: "Concrete by product formed during the development cycle. As an example we have Product Backlog and the Sprint Backlog"
+            },        
+        
+            {
+                termino:"Assumptions",
+                        descripcion: "Factors that considered to be true, real or certain."
+            },        
+        
+            {
+                termino:"Assumptions Analysis",
+                        descripcion: "Project management exercise that explores the validity of assumptions that were made at the beginning of the project to identify any potential project risk conceived and developed because of the inaccuracy of any assumption. It also identifies risks because of any instability, inconsistency, or incompleteness of assumptions."
+            },        
+        
+            {
+                termino:"Basic Unified Process (BUP)",
+                        descripcion: "Simpler Variation of Rational Unified Process (RUP) developed in 2005. It was optimized for small projects by IBM."
+            },        
+        
+            {
+                termino:"Behavior Driven Development 'BDD'",
+                        descripcion: "Software development which involves collaboration between non-technical or business participants and people with technical insight like developers, QA, etc."
+            },       
         {
             termino:"Brainstorming", 
                     descripcion:"A group activity or creativity technique that can be used to generate and analyze ideas or to identify issues, risks, or even to determine solutions to problems."
@@ -151,13 +153,7 @@ export class scrumService {
         {
             termino:"Chief Product Owner", 
                     descripcion:"The person responsible for the overall Product Backlog in product development with multiple Scrum Teams."
-            },
-    
-        {
-            termino:"Chrysler Comprehensive Compensation System Project (C3)", 
-                    descripcion:"C3 was a project to have a single payroll system for everyone in Chrysler. This project ran from 1993 until DaimlerChrysler (after Chrysler was bought out) stopped the C3 project on February 1, 2000. Many Agile software development techniques were developed during this project; chief among them was Extreme Programming (XP)."
-            },
-    
+            },   
         {
             termino:"Code Refactoring", 
                     descripcion:"A technique used in software development for restructuring/redesigning an existing body of code without changing its behavior. The purpose of re-factoring is to improve non-functional attributes of the software, e.g., managing technical debt or making coding faster."
@@ -246,13 +242,7 @@ export class scrumService {
         {
             termino:"Defined Process Control", 
                     descripcion:"A process control approach used for defined processes. This model primarily involves creating and maintaining processes that produce expected output."
-            },
-        
-        {
-            termino:"Definition of Ready", 
-                    descripcion:"Conditions that need to be satisfied by the product backlog item before it is considered ready to pull into a sprint during sprint planning."
-            },
-    
+            },      
         {
             termino:"Delphi Method", 
                     descripcion:"The Delphi Method is an estimation/surveying method in which estimates and opinions are collected anonymously from a panel. This reduces the bias that may arise due to the power/influence of certain panel members."
@@ -301,23 +291,7 @@ export class scrumService {
         {
             termino:"Estimation", 
                     descripcion:"A rough calculation of the number, quantity, or size of product backlog items, portfolio backlog item, and sprint backlog task."
-            },
-    
-        {
-            termino:"Event Timeline", 
-                    descripcion:"A technique used during sprint retrospective, which involves chronological depiction of events that occurred over a period of time."
-            },
-    
-        {
-            termino:"Expert Judgment", 
-                    descripcion:"Judgment provided by expert (s) in specific area on matters or activities being performed in that area. Expert could be a person or group with specialized training or education, knowledge and skill. The expertise could also be acquired with time and experience."
-            },
-        
-        {
-            termino:"Forecasting", 
-                    descripcion:"Estimating or predicting future project status and progress based on knowledge and information available at the time of forecasting."
-            },
-    
+            },   
         {
             termino:"Functional Test", 
                     descripcion:"Functional Testing usually describes what the system does. Here functions are tested by feeding input and examining the output. It is type of 'Black Box Testing' where we do not consider the internal program structure and mostly compare the actual and expected outputs."
@@ -391,21 +365,8 @@ export class scrumService {
                 descripcion:"Named after Noriaki Kano, a Japanese professor Kano Model is used to map what is valued by the customer by classifying the product attributes into basic, performance, and excitement categories. It can be used to determine the minimally viable product that a customer will feel satisfies his or her basic requirements."
             },
             {
-                termino:"Known Technical Debt", 
-                descripcion:"A status category for technical debt that represents the debt that is known to the development team and has been made visible for future consideration."
-            },
-    
-            {
                 termino:"Lean", 
                 descripcion:"Lean Manufacturing or simply Lean focuses on the removal of waste from the production. It is a practice for delivering more or same value with less resource by eliminating waste across organizations and business processes."
-            },
-            {
-                termino:"Lifecycle Profits", 
-                descripcion:"1. The total profit potential for a product over its lifetime. 2. The total profit potential of the entire portfolio rather than a single product."
-            },
-            {
-                termino:"Means Uncertainty", 
-                descripcion:"Means uncertainty is the uncertainty surrounding the means through which a deliverable will be created."
             },
             {
                 termino:"Minimum Marketable Features (MMFs)", 
@@ -414,14 +375,6 @@ export class scrumService {
             {
                 termino:"Minimum Viable Product (MVP)", 
                 descripcion:"A product with just those minimal features that allow it to be deployed, and no more. Usually, MVP is the result of the first sprint."
-            },
-            {
-                termino:"Must-have Features", 
-                descripcion:"The set of features that must be present in the upcoming release for the release to be viable."
-            },
-            {
-                termino:"Nice-to-have Features", 
-                descripcion:"These are the features that are targeted as 'would be nice to have' in an upcoming release but can be left out if there is a shortage of funds to complete the project."
             },
             {
                 termino:"Prioritization", 
