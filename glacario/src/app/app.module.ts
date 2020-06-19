@@ -53,6 +53,7 @@ import { ScrumComponent } from './Componentes/body/scrum/scrum.component';
 import { CmnfundComponent } from './Componentes/body/cmnfund/cmnfund.component';
 import { BuscadorComponent } from './Componentes/body/buscador/buscador.component';
 import { CncComponent } from './Componentes/body/cnc/cnc.component';
+import { SapComponent } from './Componentes/body/sap/sap.component';
 
 
 
@@ -82,7 +83,8 @@ import { CncComponent } from './Componentes/body/cnc/cnc.component';
     ScrumComponent,
     CmnfundComponent,
     BuscadorComponent,
-    CncComponent
+    CncComponent,
+    SapComponent
     
   ],
   imports: [
