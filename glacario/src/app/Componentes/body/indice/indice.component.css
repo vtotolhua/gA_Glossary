@@ -2,8 +2,9 @@
     padding-top: 20px;
     text-align: left;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    color: black;
+    font-size: 30px;
+    color: darkslategray;
+    /*background-color: darkslategray;*/
 }
 
 .nav-link {
@@ -20,7 +21,7 @@
 
 .nav-pills> li > a.active, .nav-pills> li > a.active:hover {
     background-color:  rgb(105, 54, 54);
-    color:whitesmoke
+    color:whitesmoke;
 }
 
 .nav-pills> li > a.active:hover {
@@ -29,6 +30,9 @@
 
 .btn-primary{
     background-color: darkslategray;
-    height: 40px;
-    width: 150px;
+    align-self: start;
+}
+
+.separacion{
+    height: 1px;
 }
