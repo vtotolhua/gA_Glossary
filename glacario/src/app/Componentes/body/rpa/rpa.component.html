@@ -2,9 +2,25 @@
     <div class="container">
         <h1>RPA terms</h1>
         <hr width="100%" align="left">
-            <div class="container texto" *ngFor="let rpat of rpa">
+            <div class="container" *ngFor="let rpat of rpa">
                 <h2 class="card-title">{{ rpat.termino }}</h2>
                 <p>{{rpat.descripcion}}</p>
+<!--                <table class="table table-responsive">
+                    <thead>
+                        <th> JDE </th>
+                        <th> SAP- S/4 HANA </th>
+                        <th> DESCRIPCIÓN </th>
+                        <th> EJEMPLOS </th>
+
+                    </thead>
+                    <tbody>
+                        <td>{{ rpat.termino }} </td>
+                        <td>{{rpat.descripcion}} </td>
+                        <td> Es simplemente el texto de relleno de las imprentas.</td>
+                        <td> Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio </td>
+                    </tbody>
+                    
+                </table> -->
                 <hr width="75%" align="left">
         </div>
     </div>

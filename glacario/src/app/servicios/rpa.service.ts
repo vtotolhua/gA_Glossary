@@ -7,13 +7,13 @@ export class RpaService {
     [
     
         {
-            termino:"Artificial intelligence (AI)",
-                    descripcion: " technology intended to respond to and learn from stimulation in a similar way to human responses with a level of understanding and judgement that's normally only found in human expertise."
-            },
+        termino:"Artificial intelligence (AI)",
+        descripcion: " technology intended to respond to and learn from stimulation in a similar way to human responses with a level of understanding and judgement that's normally only found in human expertise."
+        },
     
     {
-            termino:"Attended RPA",
-                    descripcion: "attended RPA includes scenarios where decision making and/or user input is required, such as desktop automation. These software robots work at an employee's workstation and are triggered by two situations: a user's command and instances were Robots need input from the user to continue a task. Access is often limited to the employees within a specific department or workstation."
+        termino:"Attended RPA",
+        descripcion: "attended RPA includes scenarios where decision making and/or user input is required, such as desktop automation. These software robots work at an employee's workstation and are triggered by two situations: a user's command and instances were Robots need input from the user to continue a task. Access is often limited to the employees within a specific department or workstation."
             },
     
     {
@@ -211,6 +211,6 @@ export class RpaService {
 
 
 export interface Rpa_ {
-    termino: string;
-    descripcion: string;
+        termino: string;
+        descripcion: string;
 };

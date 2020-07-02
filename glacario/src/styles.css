@@ -33,7 +33,10 @@
         text-align: justify;
         font-family: 'Lato', sans-serif;
     }
-
+.active {
+  text-decoration-line: underline;
+  font-weight: bold;
+}
 
   @keyframes fadeIn {
     from {

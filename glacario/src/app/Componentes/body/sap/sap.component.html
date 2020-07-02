@@ -1,1 +1,15 @@
 <p>sap works!</p>
+
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+        <h1>Prueba SAP VS JDE</h1>
+        <hr width="100%" align="left">
+            <div class="container texto" *ngFor="let rpat of rpa">
+                <h2 class="card-title">{{ rpat.termino }}</h2>
+                <p>{{rpat.descripcion}}</p>
+
+                
+                <hr width="75%" align="left">
+            </div>
+    </div>
+</div>
