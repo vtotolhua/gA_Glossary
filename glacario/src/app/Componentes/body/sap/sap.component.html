@@ -1,15 +1,29 @@
-<p>sap works!</p>
-
 <div class="jumbotron jumbotron-fluid animated fadeIn fast">
     <div class="container">
         <h1>Prueba SAP VS JDE</h1>
         <hr width="100%" align="left">
-            <div class="container texto" *ngFor="let rpat of rpa">
-                <h2 class="card-title">{{ rpat.termino }}</h2>
-                <p>{{rpat.descripcion}}</p>
+            <div class="container" *ngFor="let sapa of sap" >
+<!--                <h2 class="card-title">{{ sapa.jde }}</h2>
+                <p>{{sapa.saphana}}</p>
+                <p>{{sapa.descripcion}}</p>
+                <p>{{sapa.ejemplo}}</p>
+-->
+                <table class="table table-responsive">
+                    <thead>
+                        <th> JDE </th>
+                        <th> SAP- S/4 HANA </th>
+                        <th> DESCRIPCIÓN </th>
+                        <th> EJEMPLOS </th>
 
-                
-                <hr width="75%" align="left">
+                    </thead>
+                    <tbody>
+                        <td>{{ sapa.jde }} </td>
+                        <td>{{ sapa.saphana }} </td>
+                        <td>{{ sapa.descripcion }} </td>
+                        <td>{{ sapa.ejemplo }}</td>
+                    </tbody>                    
+                </table>
+<!--                <hr width="75%" align="left"> -->
             </div>
     </div>
 </div>

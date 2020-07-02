@@ -7,6 +7,7 @@ export class RpaService {
     [
     
         {
+
         termino:"Artificial intelligence (AI)",
         descripcion: " technology intended to respond to and learn from stimulation in a similar way to human responses with a level of understanding and judgement that's normally only found in human expertise."
         },

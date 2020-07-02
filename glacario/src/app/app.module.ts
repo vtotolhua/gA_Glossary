@@ -24,6 +24,7 @@ import { acctngService } from './servicios/acctng.service';
 import { genLedgerService } from './servicios/genledger.service'; 
 import { CncService } from './servicios/cnc.service';
 import { buscadorService } from './servicios/buscador.service'; 
+import { SapService } from './servicios/sap.service';
 
 
 
@@ -109,6 +110,7 @@ import { SapComponent } from './Componentes/body/sap/sap.component';
     acctngService,
     genLedgerService,
     CncService, 
+    SapService,
     buscadorService
   ],
   bootstrap: [AppComponent]
