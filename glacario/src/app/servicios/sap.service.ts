@@ -5,14 +5,15 @@ export class SapService {
 
 
     private sap:Sapi[] = [ 
+
         {
-            jde:"OVR (One View Report)",
+            jde:"Tool kit",
             saphana:"ABAP",
             descripcion: "ABAP (Advanced Business Application Programming) es un lenguaje de cuarta generación, propiedad de SAP, que se utiliza para programar la mayoría de sus productos (R/3, mySAP Business suite...). Utiliza sentencias de Open SQL para conectarse con prácticamente cualquier base de datos. Cuenta con miles de funciones para el manejo de archivos, bases de datos, fechas, etc. Permite conexiones RFC (Remote Function Calls) para conectar a los sistemas SAP con cualquier otro sistema o lenguaje de programación.",
             ejemplo: "Programa de carga de datos maestros Programa de carga de inventario inicial de materias primas"
         },
 	{
-            jde:"Concepto 2 en JDE",
+            jde:"OVR (One View Report)",
             saphana:"SAP:ALV S/4 HANA: Fiori",
             descripcion: "ALV significa ABAP List Viewer. ALV nos brinda un formato de Lista estándar y una interfaz de usuario para todos nuestros informes ABAP. ALV es creado por un conjunto de módulos de funciones estándar proporcionados por SAP",
             ejemplo: "Listado de documentos de material-MB51 Documentos de compras por proveedor ME2N"
@@ -27,7 +28,7 @@ export class SapService {
             jde:"CNC (Configurable Network Computing)",
             saphana:"Basis",
             descripcion: "Consultor técnico encargado de la instalación del sistema SAP, monitoreo y seguimiento al performance de la máquina.",
-            ejemplo: ""
+            ejemplo:""
         },
         {
             jde:"Suite",
@@ -50,7 +51,7 @@ export class SapService {
         {
             jde:"Unidad de negocio (Business Unit)",
             saphana:"Centro de beneficios",
-            descripcion:"",
+            descripcion:"Unidad organizativa de finanzas que refleja una estructura de la empresa orientada hacia la gestión con el propósito de control interno",
             ejemplo: "2221310 Multiproducto 2221311 Gastos de Mercadotecnia  2221312 Gastos de Administración  2321313 Gastos Corporativos  2321314 Gastos de Capital Humano  2321315 Gastos de Investigación y Desarrollo  2421316 Gastos de Distribución"
         },
         {
@@ -62,7 +63,7 @@ export class SapService {
         {
             jde:"Cuenta contable",
             saphana:"Cuenta contable",
-            descripcion:"",
+            descripcion:"Término que se refiere a las cuentas de mayor en que la contabilidad de la Empresa registra cada uno de sus movimientos",
             ejemplo: "45021 ZNT Acciones 46001 ZNT Otros préstamos  46021 ZNT Otros préstamos, tmpo.restante  46031 ZNT TR-LO Amo acumulada préstamos 50001  ZNT  Aportaciones de capital."
         },
         {
@@ -86,7 +87,7 @@ export class SapService {
         {
             jde:"Maestro de proveedores y Libro de direcciones (Address Book)",
             saphana:"Business Partner SAP: Datos Maestros de Proveedores Business Partner",
-            descripcion: "Es un repositorio central de los datos de los Proveedores (Acreedores) de la empresa. MM - SD",
+            descripcion: "Es un repositorio central de los datos de los Proveedores (Acreedores) de la empresa. MM - SD. En los maestros de proveedores existe el concepto de vistas, parecida a las solapas de JDE pero que pueden desactivarse en función del usuario responsable de los datos de cada vista.",
             ejemplo: "0000170007 MX    DISTRIBUIDORA DEL HOGAR SA DE CV  0000170008 MX    SERVICIOS ROTOMONTAJES SA DE CV  0000170009 MX    ROTOMONTAJES COMERCIALIZADORA SA DE CV  0000170010 MX    ROTOMONTAJES BIENES RAICES SA DE CV"
         },
         {
@@ -113,6 +114,12 @@ export class SapService {
             descripcion: "Representación de la forma como se organizan y disponen los distintos componentes de la infraestructura tecnológica de SAP. Esquema landscape (Mandantes, transportes y órdenes)",
             ejemplo:""
         },
+{
+            jde:"Legacy",
+            saphana:"Legacy",
+            descripcion: "Cualquier sistema anterior a SAP",
+            ejemplo:"Cualquier sistema externo a SAP"
+        },
         {
             jde:"Aprobaciones",
             saphana:"Liberación de Contrato Marco",
@@ -126,10 +133,22 @@ export class SapService {
             ejemplo: "AM 2 Z_PEDIDO2 Pedidos Compra Mto.  B1 2 Z_PEDIDO2 Pedidos de Compra  B2 2 Z_PEDIDO2 Pedidos de Compra  B3 2 Z_PEDIDO2 Pedidos de Compra"
         },
         {
-            jde:"Centro/Planta",
+            jde:"Ambiente",
+            saphana:"Mandante o Client",
+            descripcion: "El mandante es el nivel jerárquico más alto en el Sistema SAP. Las especificaciones que se realicen o los datos que se introduzcan en este nivel son válidos para todas las sociedades y para todas las otras estructuras organizativas.",
+            ejemplo: "100- Mandante de ambiente de desarrollo 500- Mandante de ambiente de calidad"
+        },
+        {
+            jde:"División interna de departamento de compras",
             saphana:"Organización de Compras",
             descripcion: "Una unidad de organización es responsable del aprovisionamiento de materiales y servicios para uno o más centros y de la negociación de precios y condiciones de compras con el proveedor. La organización de compras asume responsabilidad legal para todas las operaciones de compras externas. MM",
             ejemplo: "IM01 OC importacion IM02 OC imp MP IM03 OC imp Compuesto IM04 OC imp PT IM08 OC imp Servicios"
+        },
+        {
+            jde:"Organización de ventas",
+            saphana:"Organización de ventas",
+            descripcion: "Una unidad de organización es responsable de la venta de productos y servicios y de la negociación de precios y condiciones de venta con los clientes. SD",
+            ejemplo: "SM02	02	LA NACIONAL SA DE CV	Tradicional"
         },
         {
             jde:"Electronic System Update (ESU) Software Action Request (SAR)",
@@ -148,12 +167,6 @@ export class SapService {
             saphana:"Perfil de Seguridad",
             descripcion: "Elemento que comprende el conjunto de transacciones y datos a los que tienen acceso un usuario o un grupo de usuarios",
             ejemplo:""
-        },
-        {
-            jde:"Interoperabilidad",
-            saphana:"Programa de Carga",
-            descripcion: "Aplicación que se utiliza metodológicamente para transferir los datos maestros del sistema legacy al sistema SAP Legacy System Migration Workbench (LSMW)",
-            ejemplo: "Z_LOAD_INV_INICIAL. Z_LOAD_SKU_ALL Z_LOAD_VENDORS"
         },
         {
             jde:"Universal Batch Entry (UBE)",
@@ -218,7 +231,7 @@ export class SapService {
         {
             jde:"Usuario ID",
             saphana:"Usuario ID",
-            descripcion:"",
+            descripcion:"Identificador único",
             ejemplo: "CJMORA Consultor SAP -gA C.VCISNEROS Consultor WM"
         },
         {
@@ -226,14 +239,14 @@ export class SapService {
             saphana:"Rol",
             descripcion:"Los roles también contienen las autorizaciones que los usuarios pueden usar para acceder a las transacciones, informes, aplicaciones basadas en la web, etc., que se encuentran en el menú.",
             ejemplo:""
-        }, 
+        },
         {
             jde:"Workflow",
             saphana:"Workflow",
             descripcion:"Automatización de la secuencia de transacciones que se llevan a cabo dentro de un proceso.",
             ejemplo:""
         }
-    ];
+];
 
     constructor(){
         console.log("Servicio SAP listo para usarse");
@@ -243,7 +256,6 @@ export class SapService {
         return this.sap;
     }
 }
-
     export interface Sapi{
         jde: string;
         saphana: string; 
