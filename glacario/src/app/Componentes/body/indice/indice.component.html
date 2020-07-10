@@ -1,6 +1,15 @@
 <div class="container-md">
-    <h1 class="titulo_indice">Index</h1>
+    <h1 class="titulo_indice">Topics</h1>
     <div class="btn-group-vertical">
+        <button class="btn btn-primary btn-block" data-toggle="collapse" data-target="#Intro"> Introduction </button>
+        <div id="Intro" class="collapse"> 
+            <ul class="nav flex-column nav-pills">
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link nav-pill"  [routerLink] = "['introduccion']" > Introduction </a>
+                </li>
+            </ul>
+        </div>
+        <hr class="separacion">
         <button class="btn btn-primary btn-block" data-toggle="collapse" data-target="#SAP"> SAP </button>
         <div id="SAP" class="collapse"> 
             <ul class="nav flex-column nav-pills">
@@ -13,9 +22,11 @@
         <button  class="btn btn-primary btn-block" data-toggle="collapse" data-target="#Academia"> Academia </button>
         <div id="Academia" class="collapse">
             <ul class="navbar-nav flex-column nav-pills">
+<!--
                 <li class="nav-item" routerLinkActive="active">
                     <a class="nav-link nav-pill"  [routerLink] = "['introduccion']" > Introduction </a>
                 </li>
+-->
                 <li class="nav-item" routerLinkActive="active">
                     <a class="nav-link nav-pill" [routerLink] = "['gaoffer']"> GA Offering</a>
                 </li>
