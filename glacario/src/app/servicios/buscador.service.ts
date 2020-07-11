@@ -1726,11 +1726,36 @@ export class buscadorService{
             termino:"Defect opportunity",
             descripcion: "A type of potential defect on a unit of throughput (output) which is important to the customer; example: specific fields on a form which creates an opportunity for error that would be important to the customer."
         }
-    ];
+    ]
+    
+        private buscaTermSap: buscarTermsp[] = [
+        {
+            jde: "",
+            saphana: "Saphanna", 
+            descripcion: "asdasdasd",
+            ejemplo: ""
+        }
+        ];
+    ;
 
     constructor(){
         console.log('servicios buscador listos para usarse');
     }
+    buscaTsap(termsap:string ): buscarTermsp[] {
+        
+        let termsapArr:buscarTermsp[] = [];
+        termsap = termsap.toLowerCase();
+         
+        for (let busapt_ of this.buscaTermSap){
+            let acronimo = busapt_.saphana.toLowerCase();
+            if (acronimo.indexOf( termsap ) >= 0 )
+            {
+                termsapArr.push(busapt_)
+            }
+        }
+        return termsapArr;
+    }
+
     buscarTerminos( termino:string ): buscarTerm [] {
 
         let terminosArr:buscarTerm [] = [];
@@ -1750,6 +1775,13 @@ export class buscadorService{
 }
 
 export interface buscarTerm {
-    termino:string; 
+    termino:string;
     descripcion:string;
+};
+
+export interface buscarTermsp {
+    jde: string;
+    saphana: string; 
+    descripcion: string;
+    ejemplo: string;
 };
