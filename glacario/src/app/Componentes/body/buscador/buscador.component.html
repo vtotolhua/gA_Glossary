@@ -1,12 +1,13 @@
 <div class="jumbotron jumbotron-fluid animated fadeIn fast">
     <div class="container">
-      <h1>Your results for {{ termino }} </h1> 
+<!--      <h1>Your results for {{ termino }} </h1> 
       <hr width="100%" align="right">
-
-        <div class="row animated fadeIn fast" *ngIf="buscarterm.length == 0">
+-->
+      <div><h1>Resultados Academia</h1></div>
+        <div class="row animated fadeIn fast" *ngIf="(buscarterm.length == 0)">
           <div class="col-md-8" style="position: static; align-content: center;">
             <div class = "alert alert-info" role="alert">
-                Sorry we couldn't find any term with: {{ termino }}  :(
+                Sorry we couldn't find any term in Academa with: {{ termino }}  :(
             </div>
           </div>
         </div>
@@ -16,6 +17,46 @@
               <p>{{busqterm.descripcion}}</p>
               <hr width="75%" align="left">
         </div>
+
+        <div><h1>Resultados SAP</h1></div>
+        <div class="row animated fadeIn fast" *ngIf="(buscartermsap.length == 0)">
+          <div class="col-md-8" style="position: static; align-content: center;">
+            <div class = "alert alert-info" role="alert">
+                Sorry we couldn't find any term in SAP with: {{ termino }}  :(
+            </div>
+          </div>
+        </div>
+        <div class="container texto" *ngFor="let busqtermsp of buscartermsap">
+<!--          <h2 class="card-title">{{ busqtermsp.termino }}</h2>
+            <p>{{busqtermsp.saphana}}</p>
+            <hr width="75%" align="left">
+-->
+            <div class="table-responsive">
+              <table class="table table-dark table-striped">
+                  <thead>
+                      <tr>
+                          <th style="width: 15%"> JDE </th>
+                          <th style="width: 15%"> SAP- S/4 HANA </th>
+                          <th style="width: 35%"> DESCRIPCIÓN </th>
+                          <th style="width: 35%"> EJEMPLOS </th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>{{ busqtermsp.jde }} </td>
+                          <td>{{ busqtermsp.saphana }} </td>
+                          <td>{{ busqtermsp.descripcion }} </td>
+                          <td>{{ busqtermsp.ejemplo }}</td>
+                      </tr>
+                  </tbody>                    
+              </table>
+          </div>
+
+
+
+
+
+      </div>
     </div>
 </div>
 

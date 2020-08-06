@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit{
   ngOnInit (){}
 
   buscarTermino( termino:string ){
+    console.log(termino);
   this.router.navigate( ['/buscar', termino] );
   }
 }
