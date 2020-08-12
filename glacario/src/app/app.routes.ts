@@ -20,6 +20,7 @@ import {CmnfundComponent} from './Componentes/body/cmnfund/cmnfund.component';
 import { BuscadorComponent } from './Componentes/body/buscador/buscador.component';
 import { CncComponent } from './Componentes/body/cnc/cnc.component';
 import { SapComponent } from './Componentes/body/sap/sap.component';
+import { SapbrComponent } from './Componentes/body/sapbr/sapbr.component';
 
 const APP_ROUTES: Routes = [
 {path: 'tema1', component: Tema1Component}, 
@@ -41,6 +42,7 @@ const APP_ROUTES: Routes = [
 {path: 'cmnfund', component: CmnfundComponent},
 {path: 'Cnc', component: CncComponent},
 {path: 'Sap', component: SapComponent},
+{path: 'SapBr', component: SapbrComponent},
 {path: 'buscar/:termino', component: BuscadorComponent},
 
 

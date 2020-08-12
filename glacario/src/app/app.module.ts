@@ -25,7 +25,7 @@ import { genLedgerService } from './servicios/genledger.service';
 import { CncService } from './servicios/cnc.service';
 import { buscadorService } from './servicios/buscador.service'; 
 import { SapService } from './servicios/sap.service';
-
+//import { SapbrService } from './servicios/sap.service';
 
 
 //COMPONENTES 
@@ -55,7 +55,7 @@ import { CmnfundComponent } from './Componentes/body/cmnfund/cmnfund.component';
 import { BuscadorComponent } from './Componentes/body/buscador/buscador.component';
 import { CncComponent } from './Componentes/body/cnc/cnc.component';
 import { SapComponent } from './Componentes/body/sap/sap.component';
-
+import { SapbrComponent } from './Componentes/body/sapbr/sapbr.component';
 
 
 @NgModule({
@@ -85,7 +85,8 @@ import { SapComponent } from './Componentes/body/sap/sap.component';
     CmnfundComponent,
     BuscadorComponent,
     CncComponent,
-    SapComponent
+    SapComponent,
+    SapbrComponent
     
   ],
   imports: [
