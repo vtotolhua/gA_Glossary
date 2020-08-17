@@ -1,1 +1,28 @@
-<p>sapbr works!</p>
+<div class="jumbotron jumbotron-fluid animated fadeIn fast">
+    <div class="container">
+        <h1>JDE e S/4 HANA Conceitos em Portugues</h1>
+        <hr width="100%" align="left">
+            <div class="container" *ngFor="let sapbra of sapbr" >
+                <div class="table-responsive">
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th style="width: 15%"> JDE </th>
+                            <th style="width: 15%"> SAP- S/4 HANA </th>
+                            <th style="width: 35%"> DESCRIÇÃO </th>
+                            <th style="width: 35%"> EXEMPLOS </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{ sapbra.jde }} </td>
+                            <td>{{ sapbra.saphana }} </td>
+                            <td>{{ sapbra.descripcion }} </td>
+                            <td>{{ sapbra.ejemplo }}</td>
+                        </tr>
+                    </tbody>                    
+                </table>
+            </div>
+            </div>
+    </div>
+</div>

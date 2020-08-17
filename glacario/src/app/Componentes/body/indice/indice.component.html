@@ -1,7 +1,9 @@
-<div class="container-md">
+<div class="jumbotron-fluid">
+<div class="container-fluid">
     <h1 class="titulo_indice">Topics</h1>
-    <div class="btn-group-vertical">
-        <button class="btn btn-primary btn-block" data-toggle="collapse" data-target="#Intro"> Introduction </button>
+    <div class="btn-group-vertical-sm">
+        <button type="button" class="btn btn-primary btn-block" [routerLink] = "['introduccion']"> Introduction </button>
+<!--        <button class="btn btn-primary btn-block" data-toggle="collapse" data-target="#Intro"> Introduction </button>
         <div id="Intro" class="collapse"> 
             <ul class="nav flex-column nav-pills">
                 <li class="nav-item" routerLinkActive="active">
@@ -9,20 +11,21 @@
                 </li>
             </ul>
         </div>
+-->
         <hr class="separacion">
-        <button class="btn btn-primary btn-block" data-toggle="collapse" data-target="#SAP"> SAP </button>
+        <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#SAP"> SAP </button>
         <div id="SAP" class="collapse"> 
             <ul class="nav flex-column nav-pills">
                 <li class="nav-item" routerLinkActive="active">
-                    <a class="nav-link nav-pill"  [routerLink] = "['Sap']" > SAP </a>
+                    <a class="nav-link nav-pill" style="word-break: break-word;" [routerLink] = "['Sap']" > SAP </a>
                 </li>
                 <li class="nav-item" routerLinkActive="active">
-                    <a class="nav-link nav-pill"  [routerLink] = "['SapBr']" > SAP Portugués </a>
+                    <a class="nav-link nav-pill" style="word-break: break-all;"  [routerLink] = "['SapBr']" > SAP Portugues </a>
                 </li>
             </ul>
         </div>
         <hr class="separacion">
-        <button  class="btn btn-primary btn-block" data-toggle="collapse" data-target="#Academia"> Academia </button>
+        <button  type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#Academia"> Academia </button>
         <div id="Academia" class="collapse">
             <ul class="navbar-nav flex-column nav-pills">
                 <li class="nav-item" routerLinkActive="active">
@@ -82,5 +85,7 @@
             </ul>
         </div>    
     </div>
+</div>
+
 </div>
 

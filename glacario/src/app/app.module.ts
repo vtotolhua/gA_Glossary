@@ -25,7 +25,7 @@ import { genLedgerService } from './servicios/genledger.service';
 import { CncService } from './servicios/cnc.service';
 import { buscadorService } from './servicios/buscador.service'; 
 import { SapService } from './servicios/sap.service';
-//import { SapbrService } from './servicios/sap.service';
+import {  SapbrService } from "./servicios/sapbr.service";
 
 
 //COMPONENTES 
@@ -112,6 +112,7 @@ import { SapbrComponent } from './Componentes/body/sapbr/sapbr.component';
     genLedgerService,
     CncService, 
     SapService,
+    SapbrService,
     buscadorService
   ],
   bootstrap: [AppComponent]

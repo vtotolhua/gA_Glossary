@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SapbrService, Sapibr } from "../../../servicios/sapbr.service";
+
 
 @Component({
   selector: 'app-sapbr',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SapbrComponent implements OnInit {
 
-  constructor() { }
+  sapbr:Sapibr []=[]; 
+
+  constructor( private _sapbrservice:SapbrService ) { }
 
   ngOnInit() {
+    this.sapbr = this._sapbrservice.getsapbr();
+    console.log(this.sapbr);
+
   }
 
 }
